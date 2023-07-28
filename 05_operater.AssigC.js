@@ -1,7 +1,7 @@
 console.log(`------------------------------Step 1------------------------------`);
 
 var tcsInterview = function(gradeScore, hscScore, sscScore, candidateName){
-    result = (gradeScore >=70 && hscScore >=80 && sscScore >=90) ? `Congrates ${candidateName} you are eligible for TCS interview` : `${candidateName} unfortunately you are not eligible for TCS interview`;
+    result = (gradeScore >=70 || hscScore >=80 || sscScore >=90) ? `Congrates ${candidateName} you are eligible for TCS interview` : `${candidateName} unfortunately you are not eligible for TCS interview`;
     console.log(`${result}`);
 }
 tcsInterview(80, 86, 90,`Jayant`)
