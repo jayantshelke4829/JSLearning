@@ -8,3 +8,4 @@ console.log(city);
 
 var pin; // Variable Declaration
 console.log(pin);
+
