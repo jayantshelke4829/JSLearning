@@ -40,8 +40,8 @@ var monthOfYear = function (month) {
       break;
 
     default:
-      console.log(`${month} is Invalid input`);
-      console.log(`Please provide valid data `);
+      console.log(`${month} is Invalid input Please provide valid data`);
+      
       break;
   }
   console.log(`----------------------`);

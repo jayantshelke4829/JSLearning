@@ -13,14 +13,14 @@ var marriageEligibility = function(gender, age){
     
     
     if (gender==`Female` && age>=18) {
-        console.log(`Your gender is ${gender} and age is ${age} so you are eligible for marriage`);
+        console.log(`Your gender is ${gender} and age is ${age} so you are not eligible for marriage`);
     }
     
+    if ( gender==`Other` && age>=0 ) {
+        console.log(`Your gender is ${gender} and age is ${age} so you are not eligible for marriage`);
     
-    if (gender==`Other` && age>=0 && age<=0 && isNaN(age)) {
-        console.log(`You are not eligible for marriage`);
-
     }
+    
     
 }
 marriageEligibility(`Male`,17);
