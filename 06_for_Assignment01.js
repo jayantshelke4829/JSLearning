@@ -21,10 +21,10 @@ for (let index = 5; index <=50; index=index+5) {
     console.log(index);
 }
 console.log(`---------------------------`);
-for (let index = 10; index <=100; index=index+10 +s) {
+for (let index = 10; index <=100; index=index+10 ) {
     console.log(index);
 }
 console.log(`---------------------------`);
-for (let index = 100; index >=10; index=index) {
+for (let index = 100; index >=10; index=index-10) {
     console.log(index);
 }
