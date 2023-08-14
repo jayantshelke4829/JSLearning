@@ -1,13 +1,19 @@
-function test_prime(num) {
-    if (num <= 1) {
-      return false;
-    }
-    for (let i = 2; i <= Math.sqrt(num); i++) {
-      if (num % i === 0) {
-        return false;
-      }
-    }
-    return true;
+
+function isPrime(num){
+  let count = 0
+  for (let index = 0; index <= num; index++) {
+      if (num%index==0) {
+        count++
+      }   
+      
   }
-  console.log(test_prime(11));
-  console.log(test_prime(21));
+  if (count==2) {
+    console.log(`Number is prime`);
+  } 
+  else{
+    console.log(`Number is not prime`);
+  }
+}
+isPrime(11)
+isPrime(12)
+
