@@ -34,7 +34,7 @@ arrayEmployes.forEach( (employee)=> {
 
   arrayEmployes.forEach( (employee)=> {
     if (employee.emp_name.startsWith("R")) {
-        console.log(employee);
+        console.log(employee.emp_name,employee.emp_company,employee.emp_salary);
     }   
   });  
   console.log(`-------------------------------- step 4 -------------------------------`);
@@ -49,7 +49,7 @@ arrayEmployes.forEach( (employee)=> {
 
   arrayEmployes.forEach( (employee)=> {
     if (employee.emp_salary>=50000 && employee.emp_dept=='IT') {
-        console.log(employee);
+        console.log(employee.emp_name,employee.emp_company,employee.emp_salary);
     }   
   });  
 
@@ -57,7 +57,7 @@ arrayEmployes.forEach( (employee)=> {
 
   arrayEmployes.forEach( (employee)=> {
     if (employee.emp_company=='Infy') {
-        console.log(employee);
+        console.log(employee.emp_name,employee.emp_company,employee.emp_salary);
     }   
   });  
 
